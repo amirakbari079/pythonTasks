@@ -13,55 +13,55 @@ print(is_palindrome(string))
 
 # 2
 # print("============2============")
-# def calculate_net_salary(salary):
-#     # Calculate insurance deduction (7%)
-#     insurance_deduction = 0.07 * salary
-#     # Calculate tax deduction (10%)
-#     tax_deduction = 0.10 * salary
-#     # Calculate net salary
-#     net_salary = salary - insurance_deduction - tax_deduction
-#     return net_salary
+def calculate_net_salary(salary):
+    # Calculate insurance deduction (7%)
+    insurance_deduction = 0.07 * salary
+    # Calculate tax deduction (10%)
+    tax_deduction = 0.10 * salary
+    # Calculate net salary
+    net_salary = salary - insurance_deduction - tax_deduction
+    return net_salary
 
-# # Example usage
-# salary = int(input("Enter your sallary: "))
-# net_salary = calculate_net_salary(salary)
-# print(f"The net salary after insurance and tax deductions is: {net_salary}")
-# # ---------------
+# Example usage
+salary = int(input("Enter your sallary: "))
+net_salary = calculate_net_salary(salary)
+print(f"The net salary after insurance and tax deductions is: {net_salary}")
+# ---------------
 
 
-# # 3
-# print("============3============")
-# def sum_of_digits(number):
-#     # Calculate the sum of the digits
-#     sum = 0
-#     while number:
-#         sum += number % 10
-#         number = number // 10
-#     return sum
+# 3
+print("============3============")
+def sum_of_digits(number):
+    # Calculate the sum of the digits
+    sum = 0
+    while number:
+        sum += number % 10
+        number = number // 10
+    return sum
 
-# # Example usage
-# number=int(input("Enter your number: "))
-# result = sum_of_digits(number)
-# print(f"The sum of the digits of {number} is: {result}")
-# # ---------------
+# Example usage
+number=int(input("Enter your number: "))
+result = sum_of_digits(number)
+print(f"The sum of the digits of {number} is: {result}")
+# ---------------
 
-# 4
-# print("============4============")
-# def convert_distance(kilometers):
-#     # Convert to meters
-#     meters = kilometers * 1000
-#     # Convert to centimeters
-#     centimeters = kilometers * 100000
-#     # Convert to miles
-#     miles = kilometers * 0.621371
+4
+print("============4============")
+def convert_distance(kilometers):
+    # Convert to meters
+    meters = kilometers * 1000
+    # Convert to centimeters
+    centimeters = kilometers * 100000
+    # Convert to miles
+    miles = kilometers * 0.621371
 
-#     return meters, centimeters, miles
+    return meters, centimeters, miles
 
-# # Example usage
-# distance_in_kilometers = int(input("Enter your distance in kilometers: "))  # Replace 10 with the actual distance in kilometers
-# meters, centimeters, miles = convert_distance(distance_in_kilometers)
-# print(f"{distance_in_kilometers} kilometers is equal to {meters} meters, {centimeters} centimeters, and {miles} miles")
-# # ---------------
+# Example usage
+distance_in_kilometers = int(input("Enter your distance in kilometers: "))  # Replace 10 with the actual distance in kilometers
+meters, centimeters, miles = convert_distance(distance_in_kilometers)
+print(f"{distance_in_kilometers} kilometers is equal to {meters} meters, {centimeters} centimeters, and {miles} miles")
+# ---------------
 
 # 5
 print("============4============")
